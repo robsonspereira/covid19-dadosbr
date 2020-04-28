@@ -31,9 +31,10 @@ def plot_bar(df, list_var):
   
 
     fig.update_layout(barmode='group',
+                      title_text = ('Valores '+' por'+' Estado'),
                       showlegend = True,
                        plot_bgcolor='AliceBlue',
-                       autosize=False,
+                       autosize=True,
                        margin=dict(
                        autoexpand=True,
                        l=100,
@@ -57,6 +58,7 @@ def plot_scatter(df, list_var,list_estado,x):
     
     fig = go.Figure(data_scatter)
     fig.update_layout(
+         title_text = ('Valores por Data'),
         xaxis=dict(
         showline=True,
         showgrid=True,
