@@ -224,7 +224,7 @@ def main ():
     
     st.sidebar.markdown('Autor : Robson Pereira')
     st.sidebar.markdown('Linkedin: https://www.linkedin.com/in/robson-pereira90/')
-    st.sidebar.markdown('Código: https://github.com/robsonspereira')
+    st.sidebar.markdown('Código: https://github.com/robsonspereira/covid19-dadosbr')
 
 if __name__ == '__main__':
     main()
